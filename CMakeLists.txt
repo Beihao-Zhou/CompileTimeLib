@@ -18,3 +18,7 @@ add_test(NAME StaticVectorTest COMMAND test_static_vector)
 add_executable(test_static_set tests/static_set.cpp)
 target_link_libraries(test_static_set ${GTEST_BOTH_LIBRARIES} pthread)
 add_test(NAME StaticSetTest COMMAND test_static_set)
+
+add_executable(test_static_function tests/static_function.cpp)
+target_link_libraries(test_static_function ${GTEST_BOTH_LIBRARIES} pthread)
+add_test(NAME StaticFunctionTest COMMAND test_static_function)
