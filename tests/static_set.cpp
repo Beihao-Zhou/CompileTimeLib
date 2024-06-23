@@ -1,4 +1,4 @@
-#include <ct_lib/container/static_set.hpp>
+#include <container/static_set.hpp>
 #include <gtest/gtest.h>
 
 TEST(StaticSetTest, IsEmptyInitially) {

@@ -1,4 +1,4 @@
-#include <ct_lib/container/static_vector.hpp>
+#include <container/static_vector.hpp>
 #include <gtest/gtest.h>
 #include <iostream>
 
